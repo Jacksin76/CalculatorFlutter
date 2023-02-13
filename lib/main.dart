@@ -8,8 +8,7 @@ class Calculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
+      theme: ThemeData.dark(),
       home: CalcBody(),
       debugShowCheckedModeBanner: false,
     );
